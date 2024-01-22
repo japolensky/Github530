@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/PetClinic/spring-petclinic">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bookclubw2" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week3]/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "3e421cf01aa556c4a8500c838eb26953",
+    "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\Week-1\src\main\java\com\bookclub" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\.idea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week2">
+    <configuration name="Polensky Bookclub Week1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Week1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polensky Bookclub Week2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="bookclub_w2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polensky Bookclub Week3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="Week1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Polensky Bookclub Week1" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week2" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week3" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
+      <created>1703575734923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703575734923</updated>
+      <workItem from="1703575736306" duration="3872000" />
+      <workItem from="1703783772171" duration="1309000" />
+      <workItem from="1703798715501" duration="3190000" />
+      <workItem from="1704041172591" duration="2009000" />
+      <workItem from="1704759314439" duration="59000" />
+      <workItem from="1704759381229" duration="17000" />
+      <workItem from="1704759420075" duration="4000" />
+      <workItem from="1704760138896" duration="95000" />
+      <workItem from="1705871977521" duration="39000" />
+      <workItem from="1705878291813" duration="9180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PetClinic/spring-petclinic" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
