@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/src/main/java/com/bookclub/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +54,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +79,14 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="native" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,6 +98,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -73,22 +110,27 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/.ssh/id_ed25519",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week3]/src/main/resources/templates",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Subversion.SSH",
-    "spring.configuration.checksum": "3e421cf01aa556c4a8500c838eb26953",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "874aa16506d5a8eca82b537151804ed8",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week3]\src\main\resources\templates" />
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week3]\src\main\resources" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\Week-1\src\main\java\com\bookclub" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week2]\src\main\resources" />
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week2]\src\main\resources\templates" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\.idea" />
     </key>
@@ -100,13 +142,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week2">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week3">
     <configuration name="Polensky Bookclub Week1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="Week1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
+      <module name="bookclub_w1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.BookclubApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,7 +173,7 @@
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="Week1" />
+      <module name="bookclub_w1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,7 +212,11 @@
       <workItem from="1704759420075" duration="4000" />
       <workItem from="1704760138896" duration="95000" />
       <workItem from="1705871977521" duration="39000" />
-      <workItem from="1705878291813" duration="15279000" />
+      <workItem from="1705878291813" duration="16572000" />
+      <workItem from="1706981524540" duration="1983000" />
+      <workItem from="1706983524231" duration="1078000" />
+      <workItem from="1706985604038" duration="5466000" />
+      <workItem from="1706992936577" duration="5165000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -179,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705906009644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testcommit">
+      <created>1705909646638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705909646638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,9 +252,13 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/PetClinic/spring-petclinic" />
+      <path value="$PROJECT_DIR$/Week01" />
+      <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
     <MESSAGE value="testcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="testcommit" />
+    <MESSAGE value="testcommit Week3 - all seems to be working okay." />
+    <MESSAGE value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
+    <option name="LAST_COMMIT_MESSAGE" value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

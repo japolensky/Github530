@@ -19,7 +19,7 @@
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
 
-                <h1> Welcome to the Book Club application!</h1>
+                <h1>W3 Welcome to the Book Club application!</h1>
                 <p class="lead text-muted">
                     Welcome to the Book Club app, your "one stop
                     shop" for all of your book club needs.  Below you will find a list of
@@ -28,6 +28,37 @@
             </div>
         </div>
     </section>
+
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col" th:each="book : ${books}">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span th:text="${book.getTitle()}"></span>
+                                <br />
+                                <small class="text-muted"><em th:text="${book.getDescription()}"></em></small>
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <ul th:each="author : ${book.getAuthors()}" style="list-style-type: none;">
+                                    <li>
+                                        <small class="text-muted" th:text="${author}"></small>
+                                    </li>
+                                </ul>
+                                <div class="btn-group">
+                                    <a href="#" th:href="@{/{id}(id=${book.getIsbn()})}" class="btn btn-sm btn-outline-secondary">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <div th:insert="~{fragments/footer :: footer}"></div>

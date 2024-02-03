@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Week1" />
         <module name="bookclub_w3" />
         <module name="bookclub_w2" />
+        <module name="bookclub_w1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Week1" options="-parameters" />
+      <module name="bookclub_w1" options="-parameters" />
       <module name="bookclub_w2" options="-parameters" />
       <module name="bookclub_w3" options="-parameters" />
     </option>
