@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/src/main/java/com/bookclub/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/src/main/resources/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +86,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week3]/src/main/resources/templates",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
@@ -216,7 +192,7 @@
       <workItem from="1706981524540" duration="1983000" />
       <workItem from="1706983524231" duration="1078000" />
       <workItem from="1706985604038" duration="5466000" />
-      <workItem from="1706992936577" duration="5165000" />
+      <workItem from="1706992936577" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -232,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705909646638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testcommit Week3 - better, all working for week3 work.">
+      <created>1707000307040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707000307040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +241,8 @@
     <MESSAGE value="testcommit" />
     <MESSAGE value="testcommit Week3 - all seems to be working okay." />
     <MESSAGE value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
-    <option name="LAST_COMMIT_MESSAGE" value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
+    <MESSAGE value="testcommit Week3 - better, all working for week3 work." />
+    <option name="LAST_COMMIT_MESSAGE" value="testcommit Week3 - better, all working for week3 work." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
