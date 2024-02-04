@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +195,7 @@
       <workItem from="1706981524540" duration="1983000" />
       <workItem from="1706983524231" duration="1078000" />
       <workItem from="1706985604038" duration="5466000" />
-      <workItem from="1706992936577" duration="5513000" />
+      <workItem from="1706992936577" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707000307040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testcommit Week3 - better, all working for week3 work. trying to get to push properly.">
+      <created>1707000664986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707000664986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +252,8 @@
     <MESSAGE value="testcommit Week3 - all seems to be working okay." />
     <MESSAGE value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
     <MESSAGE value="testcommit Week3 - better, all working for week3 work." />
-    <option name="LAST_COMMIT_MESSAGE" value="testcommit Week3 - better, all working for week3 work." />
+    <MESSAGE value="testcommit Week3 - better, all working for week3 work. trying to get to push properly." />
+    <option name="LAST_COMMIT_MESSAGE" value="testcommit Week3 - better, all working for week3 work. trying to get to push properly." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
