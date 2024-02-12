@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="update for week4 add">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation.">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/test/java/com/bookclub/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +42,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Interface" />
-        <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,7 +74,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -239,7 +235,7 @@
       <workItem from="1707690448226" duration="248000" />
       <workItem from="1707690702786" duration="2586000" />
       <workItem from="1707693595886" duration="379000" />
-      <workItem from="1707694115692" duration="5044000" />
+      <workItem from="1707694115692" duration="9213000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -297,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707686230563</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/">
+      <created>1707704626512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707704626512</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +332,9 @@
     <MESSAGE value="week 3 - testing pull then push" />
     <MESSAGE value="readme update" />
     <MESSAGE value="update for week4 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for week4 add" />
+    <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
+    <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
+    <option name="LAST_COMMIT_MESSAGE" value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
