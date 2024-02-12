@@ -4,32 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/test/java/com/bookclub/ApplicationTests.java" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="update for week4 add">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/test/java/com/bookclub/ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/PetClinic/spring-petclinic">
@@ -54,6 +48,7 @@
         <option value="CSS File" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -86,7 +81,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,6 +91,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -107,14 +105,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week4]",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14972815",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "874aa16506d5a8eca82b537151804ed8",
+    "project.structure.side.proportion": "0.6436782",
+    "settings.editor.selected.configurable": "settings.json.schema.catalog",
+    "spring.configuration.checksum": "c59fe29cf0df5606e472badf8dd667b6",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
@@ -131,6 +129,9 @@
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\.idea" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.com.bookclub" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -139,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week3">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week4">
     <configuration name="Polensky Bookclub Week1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
@@ -168,6 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polensky Bookclub Week4" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w1" />
@@ -176,10 +185,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bookclubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.bookclubApplication" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week1" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week2" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week3" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week4" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -215,7 +234,12 @@
       <workItem from="1706985604038" duration="5466000" />
       <workItem from="1706992936577" duration="7258000" />
       <workItem from="1707684628471" duration="148000" />
-      <workItem from="1707684791935" duration="851000" />
+      <workItem from="1707684791935" duration="1601000" />
+      <workItem from="1707686811100" duration="2918000" />
+      <workItem from="1707690448226" duration="248000" />
+      <workItem from="1707690702786" duration="2586000" />
+      <workItem from="1707693595886" duration="379000" />
+      <workItem from="1707694115692" duration="5044000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -266,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707005583509</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update for week4 add">
+      <created>1707686230563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707686230563</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +315,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/PetClinic/spring-petclinic" />
       <path value="$PROJECT_DIR$/Week01" />
@@ -296,7 +328,8 @@
     <MESSAGE value="testcommit Week3 - better, all working for week3 work. trying to get to push properly." />
     <MESSAGE value="week 3 - testing pull then push" />
     <MESSAGE value="readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
+    <MESSAGE value="update for week4 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for week4 add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
