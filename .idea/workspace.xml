@@ -4,14 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation.">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="Update for week 5 - in progress of getting mongo DB connection to work properly.">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/.idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bookclub_w4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsonCatalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/wishlist/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/wishlist/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/wishlist/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +116,9 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,6 +138,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="enabledProfiles">
@@ -101,14 +175,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week5]/pom.xml",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14972815",
-    "project.structure.side.proportion": "0.6436782",
-    "settings.editor.selected.configurable": "settings.json.schema.catalog",
-    "spring.configuration.checksum": "c59fe29cf0df5606e472badf8dd667b6",
+    "project.structure.side.proportion": "0.5050234",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "350db70d60d33b2a432fa428d696dfd3",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
@@ -173,9 +247,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polensky Bookclub Week5" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="bookclub_w1" />
+      <module name="bookclub_w5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,6 +277,7 @@
       <item itemvalue="Spring Boot.Polensky Bookclub Week2" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week3" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week4" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week5" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -235,7 +318,12 @@
       <workItem from="1707690448226" duration="248000" />
       <workItem from="1707690702786" duration="2586000" />
       <workItem from="1707693595886" duration="379000" />
-      <workItem from="1707694115692" duration="9213000" />
+      <workItem from="1707694115692" duration="10257000" />
+      <workItem from="1708208084734" duration="418000" />
+      <workItem from="1708208554193" duration="1282000" />
+      <workItem from="1708463579906" duration="629000" />
+      <workItem from="1708464221375" duration="5675000" />
+      <workItem from="1708487023617" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -300,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707704626512</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation.">
+      <created>1707708673831</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707708673831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +429,8 @@
     <MESSAGE value="update for week4 add" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
-    <option name="LAST_COMMIT_MESSAGE" value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
+    <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
