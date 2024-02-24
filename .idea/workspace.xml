@@ -5,32 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/src/main/java/com/bookclub/BookclubApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub/src/test/java/com/bookclub/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week1]/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week1]/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week1]/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week1]/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week1]/src/test/java/com/bookclub/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +290,7 @@
       <workItem from="1708810075938" duration="1800000" />
       <workItem from="1708814145944" duration="561000" />
       <workItem from="1708814728484" duration="399000" />
-      <workItem from="1708815157317" duration="1119000" />
+      <workItem from="1708815157317" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -361,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708488604921</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update some items in the repository.  trying to clear .java files that list as red in intellij">
+      <created>1708816611776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708816611776</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +412,8 @@
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
+    <MESSAGE value="update some items in the repository.  trying to clear .java files that list as red in intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some items in the repository.  trying to clear .java files that list as red in intellij" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
