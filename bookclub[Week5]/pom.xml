@@ -11,7 +11,7 @@
 	<groupId>com.bookclub.</groupId>
 	<artifactId>bookclub</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bookclubsb3.3.0(m1)</name>
+	<name>bookclub SB3.3.0(m1) For Week 5</name>
 	<description>PolenskyCIS530_2024</description>
 	<properties>
 		<java.version>17</java.version>

@@ -4,87 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="Update for week 5 - in progress of getting mongo DB connection to work properly.">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea/.idea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/bookclub_w4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsonCatalog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/main/resources/templates/wishlist/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/resources/templates/wishlist/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/bookclub_w5/templates/wishlist/new.html" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/src/main/java/com/bookclub/BookclubApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub/src/test/java/com/bookclub/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week2]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week3]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week4]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/service/impl/MemWishlistDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week5]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +62,9 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,33 +105,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week5]/pom.xml",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14972815",
-    "project.structure.side.proportion": "0.5050234",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "350db70d60d33b2a432fa428d696dfd3",
-    "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week6]/pom.xml&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14972815&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5050234&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2506e500ee68fb93c2f03e971b42e09e&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
@@ -210,8 +156,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week4">
-    <configuration name="Polensky Bookclub Week1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week6">
+    <configuration name="Polensky Bookclub Week1 Java17 SDK" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.BookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polensky Bookclub Week1 Temurin-17" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -255,6 +209,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polensky Bookclub Week6" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w5" />
@@ -263,21 +225,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bookclubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="bookclub_w4" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.bookclubApplication" />
-      <item itemvalue="Spring Boot.Polensky Bookclub Week1" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week1 Java17 SDK" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week1 Temurin-17" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week2" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week3" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week4" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week5" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week6" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -323,7 +278,11 @@
       <workItem from="1708208554193" duration="1282000" />
       <workItem from="1708463579906" duration="629000" />
       <workItem from="1708464221375" duration="5675000" />
-      <workItem from="1708487023617" duration="1310000" />
+      <workItem from="1708487023617" duration="6600000" />
+      <workItem from="1708810075938" duration="1800000" />
+      <workItem from="1708814145944" duration="561000" />
+      <workItem from="1708814728484" duration="399000" />
+      <workItem from="1708815157317" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -395,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707708673831</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly.">
+      <created>1708488604921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708488604921</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +396,8 @@
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
+    <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
