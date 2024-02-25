@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +262,7 @@
       <workItem from="1708820857093" duration="2428000" />
       <workItem from="1708835187071" duration="7413000" />
       <workItem from="1708884088481" duration="15615000" />
-      <workItem from="1708903349801" duration="423000" />
+      <workItem from="1708903349801" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -437,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708903507225</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct">
+      <created>1708903823311</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708903823311</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct">
+      <created>1708903988914</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708903988914</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
