@@ -261,7 +261,7 @@
       <workItem from="1708815157317" duration="4533000" />
       <workItem from="1708820857093" duration="2428000" />
       <workItem from="1708835187071" duration="7413000" />
-      <workItem from="1708884088481" duration="15048000" />
+      <workItem from="1708884088481" duration="15188000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708902607260</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed.">
+      <created>1708902757363</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708902757363</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
