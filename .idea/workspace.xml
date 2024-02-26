@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w7 initial commit c">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/security/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +93,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,7 +120,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week7]/pom.xml",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week7]/src/main/resources",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -115,6 +133,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week7]\src\main\resources" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week3]\src\main\resources\templates" />
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week3]\src\main\resources" />
@@ -281,7 +300,7 @@
       <workItem from="1708884088481" duration="15615000" />
       <workItem from="1708903349801" duration="3779000" />
       <workItem from="1708910907226" duration="853000" />
-      <workItem from="1708911841599" duration="621000" />
+      <workItem from="1708911841599" duration="53330000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -500,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708905076143</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct">
+      <created>1708912516967</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1708912516967</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +568,9 @@
     <MESSAGE value="commit for week6 - authentication remove the files from git for oauth2 keys" />
     <MESSAGE value="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed." />
     <MESSAGE value="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct" />
+    <MESSAGE value="w7 initial commit b" />
+    <MESSAGE value="w7 initial commit c" />
+    <option name="LAST_COMMIT_MESSAGE" value="w7 initial commit c" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
