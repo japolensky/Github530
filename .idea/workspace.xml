@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w7 initial commit c">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/security/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/impl/MemBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/WishListRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +106,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.5050234",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "6ec0b7a6bf6c9dff9b91be58d5470068",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
@@ -300,7 +280,7 @@
       <workItem from="1708884088481" duration="15615000" />
       <workItem from="1708903349801" duration="3779000" />
       <workItem from="1708910907226" duration="853000" />
-      <workItem from="1708911841599" duration="53330000" />
+      <workItem from="1708911841599" duration="58190000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -526,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708912516967</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="w7 initial commit d">
+      <created>1708966668457</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708966668457</updated>
+    </task>
+    <task id="LOCAL-00034" summary="w7 initial commit e">
+      <created>1708966801389</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1708966801389</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +564,9 @@
     <MESSAGE value="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct" />
     <MESSAGE value="w7 initial commit b" />
     <MESSAGE value="w7 initial commit c" />
-    <option name="LAST_COMMIT_MESSAGE" value="w7 initial commit c" />
+    <MESSAGE value="w7 initial commit d" />
+    <MESSAGE value="w7 initial commit e" />
+    <option name="LAST_COMMIT_MESSAGE" value="w7 initial commit e" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

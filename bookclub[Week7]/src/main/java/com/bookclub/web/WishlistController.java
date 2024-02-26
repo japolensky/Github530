@@ -37,6 +37,7 @@ public class WishlistController {
 
     @RequestMapping(method = RequestMethod.POST)
     public String addWishlistItem(@Valid WishlistItem wishlistItem, BindingResult bindingResult) {
+        System.out.println("In POST addWishlistItem new:");
         System.out.println(wishlistItem.toString());
 
         System.out.println(bindingResult.getAllErrors());
