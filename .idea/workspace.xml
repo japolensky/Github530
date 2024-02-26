@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +102,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1",
+    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub[Week7]/pom.xml",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.5050234",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -133,7 +137,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week6">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week7">
     <configuration name="Polensky Bookclub Week1 Java17 SDK" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w1" />
@@ -194,6 +198,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polensky Bookclub Week7" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w5" />
@@ -210,9 +222,13 @@
       <item itemvalue="Spring Boot.Polensky Bookclub Week4" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week5" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week6" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week7" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringMvcView">
+    <option name="showModules" value="false" />
+  </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="SSH_CONFIG" />
@@ -263,7 +279,9 @@
       <workItem from="1708820857093" duration="2428000" />
       <workItem from="1708835187071" duration="7413000" />
       <workItem from="1708884088481" duration="15615000" />
-      <workItem from="1708903349801" duration="1518000" />
+      <workItem from="1708903349801" duration="3779000" />
+      <workItem from="1708910907226" duration="853000" />
+      <workItem from="1708911841599" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -475,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708904235875</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="commit for week6 - authentication remove the files from git for oauth2 keys - application properties removed not getting it correct">
+      <created>1708905076143</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708905076143</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
