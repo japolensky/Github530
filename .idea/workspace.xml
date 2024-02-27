@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w7 initial commit e" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w7 initial commit e">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/wishlist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week6]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week7]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +112,7 @@
     "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.5050234",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6ec0b7a6bf6c9dff9b91be58d5470068",
+    "spring.configuration.checksum": "faf9fee18b5e75ddbccdeadc154765b4",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
@@ -275,7 +285,8 @@
       <workItem from="1708884088481" duration="15615000" />
       <workItem from="1708903349801" duration="3779000" />
       <workItem from="1708910907226" duration="853000" />
-      <workItem from="1708911841599" duration="58418000" />
+      <workItem from="1708911841599" duration="63009000" />
+      <workItem from="1709001892683" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -529,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708985872963</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="w7 initial commit e">
+      <created>1708985959192</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1708985959192</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
