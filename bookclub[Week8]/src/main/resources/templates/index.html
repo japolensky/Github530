@@ -19,11 +19,11 @@
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
 
-                <h1>Welcome to the Book Club application for Week 7</h1>
+                <h1>Welcome to the Book Club application for Week 8</h1>
                 <p class="lead text-muted">
                     Welcome to the Book Club app, your "one-stop
                     shop" for all of your book club needs.  Below you will find a list of
-                    this month's top 10 favorite books.  Select the book to see it's details.
+                    this month's top 10 favorite books.  Select the book to see its details.
                 </p>
             </div>
         </div>
@@ -39,17 +39,15 @@
                             <p class="card-text">
                                 <span th:text="${book.getTitle()}"></span>
                                 <br />
-                                <small class="text-muted"><em th:text="${book.getDescription()}"></em></small>
+                                <small class="text-muted">
+                                    <em th:text="${book.getIsbn()}"></em>
+                                </small>
                             </p>
 
                             <div class="d-flex justify-content-between align-items-center">
-                                <ul th:each="author : ${book.getAuthors()}" style="list-style-type: none;">
-                                    <li>
-                                        <small class="text-muted" th:text="${author}"></small>
-                                    </li>
-                                </ul>
                                 <div class="btn-group">
                                     <a href="#" th:href="@{/{id}(id=${book.getIsbn()})}" class="btn btn-sm btn-outline-secondary">View</a>
+                                    <a href="#" th:href="${book.getInfoUrl()}" class="btn btn-sm btn-outline-secondary" target="_blank">Web Link</a>
                                 </div>
                             </div>
                         </div>

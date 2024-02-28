@@ -19,11 +19,11 @@
         <div class="col-12">
             <h1 class="text-center">Book of the month details</h1>
         </div>
-
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title" th:text="${book.getTitle()}"></h4>
+
                     <div class="card-subtitle text-muted">
                         Pages: <span th:text="${book.getNumOfPages()}"></span>
                     </div>
@@ -34,16 +34,17 @@
                         <p>
                             <strong>Description:</strong> <br /><span th:text="${book.getDescription()}"></span>
                         </p>
-                        <strong>Authors:</strong>
-                        <ul th:each="author : ${book.getAuthors()}">
-                            <li th:text="${author}"></li>
-                        </ul>
+                        <strong>Web Link:</strong>
+                        <p>
+                            <a href="#" target="_blank" th:href="${book.getInfoUrl()}" th:text="${book.getInfoUrl()}"></a>
+                        </p>
                     </div>
                 </div>
             </div>
             <br />
             <a href="/" th:href="@{/}">Return to books</a>
         </div>
+
     </div>
 </div>
 <div th:insert="~{fragments/scriptFooter :: scriptFooter}"></div>
