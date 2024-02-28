@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w8 initial commit a">
       <change beforePath="$PROJECT_DIR$/bookclub[Week8]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +298,7 @@
       <workItem from="1708911841599" duration="63009000" />
       <workItem from="1709001892683" duration="3332000" />
       <workItem from="1709079716725" duration="1118000" />
-      <workItem from="1709080988166" duration="706000" />
+      <workItem from="1709080988166" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -574,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709080638297</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="w7 initial commit e">
+      <created>1709081814864</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1709081814864</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
