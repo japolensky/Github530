@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w8 initial commit b - working already">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/service/impl/MemBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/service/impl/RestBookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week8]/src/main/resources/templates/monthly-books/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week8]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,33 +81,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14972815",
-    "project.structure.side.proportion": "0.5050234",
-    "settings.editor.selected.configurable": "spring.boot",
-    "spring.configuration.checksum": "fd80a9b0d93e6f29f8f8073f39ddb92d",
-    "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14972815&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5050234&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fd80a9b0d93e6f29f8f8073f39ddb92d&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Documents\My Documents M4400_21Oct2016\Education\Bellevue_College\CIS530_T401 Server-Side Development 2237-1\Github530\bookclub[Week7]\src\main\resources" />
@@ -307,7 +300,8 @@
       <workItem from="1709079716725" duration="1118000" />
       <workItem from="1709080988166" duration="6619000" />
       <workItem from="1709087671627" duration="4616000" />
-      <workItem from="1709092316672" duration="301000" />
+      <workItem from="1709092316672" duration="2202000" />
+      <workItem from="1709184353775" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -596,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709081888795</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="w8 initial commit c - working already&#10;MR. Gold, get the application.properties from me or use from the zipfile of the project from week 6,7, or 8 - for oauth2 signon">
+      <created>1709092689721</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1709092689721</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +645,8 @@
     <MESSAGE value="w7 initial commit e" />
     <MESSAGE value="w8 initial commit a" />
     <MESSAGE value="w8 initial commit b - working already" />
-    <option name="LAST_COMMIT_MESSAGE" value="w8 initial commit b - working already" />
+    <MESSAGE value="w8 initial commit c - working already&#10;MR. Gold, get the application.properties from me or use from the zipfile of the project from week 6,7, or 8 - for oauth2 signon" />
+    <option name="LAST_COMMIT_MESSAGE" value="w8 initial commit c - working already&#10;MR. Gold, get the application.properties from me or use from the zipfile of the project from week 6,7, or 8 - for oauth2 signon" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
