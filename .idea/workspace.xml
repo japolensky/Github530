@@ -5,6 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/bookclubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/dao/WishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/RestBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishListRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/scriptFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/monthly-books/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +98,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2a4RCA4jwfkqFldlKh5tMYSMgMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week8">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week9">
     <configuration name="Polensky Bookclub Week1 Java17 SDK" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w1" />
@@ -210,10 +238,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polensky Bookclub Week9" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w9" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="bookclub_w5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookclubApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w9" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,6 +271,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.bookclubApplication (1)" />
       <item itemvalue="Spring Boot.bookclubApplication" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week1 Java17 SDK" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week1 Temurin-17" />
@@ -237,6 +282,7 @@
       <item itemvalue="Spring Boot.Polensky Bookclub Week6" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week7" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week8" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week9" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -301,7 +347,8 @@
       <workItem from="1709080988166" duration="6619000" />
       <workItem from="1709087671627" duration="4616000" />
       <workItem from="1709092316672" duration="2202000" />
-      <workItem from="1709184353775" duration="2418000" />
+      <workItem from="1709184353775" duration="2500000" />
+      <workItem from="1709188938898" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -597,7 +644,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709092689721</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="w9 initial commit">
+      <created>1709188693802</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1709188693802</updated>
+    </task>
+    <task id="LOCAL-00044" summary="w9 initial commit b">
+      <created>1709188727034</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1709188727034</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,8 +682,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="testcommit" />
-    <MESSAGE value="testcommit Week3 - all seems to be working okay." />
     <MESSAGE value="testcommit Week3 - all seems to be working okay fixed some codeanalysis irritants" />
     <MESSAGE value="testcommit Week3 - better, all working for week3 work." />
     <MESSAGE value="testcommit Week3 - better, all working for week3 work. trying to get to push properly." />
@@ -646,7 +705,9 @@
     <MESSAGE value="w8 initial commit a" />
     <MESSAGE value="w8 initial commit b - working already" />
     <MESSAGE value="w8 initial commit c - working already&#10;MR. Gold, get the application.properties from me or use from the zipfile of the project from week 6,7, or 8 - for oauth2 signon" />
-    <option name="LAST_COMMIT_MESSAGE" value="w8 initial commit c - working already&#10;MR. Gold, get the application.properties from me or use from the zipfile of the project from week 6,7, or 8 - for oauth2 signon" />
+    <MESSAGE value="w9 initial commit" />
+    <MESSAGE value="w9 initial commit b" />
+    <option name="LAST_COMMIT_MESSAGE" value="w9 initial commit b" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
