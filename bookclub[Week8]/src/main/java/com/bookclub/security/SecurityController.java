@@ -25,5 +25,4 @@ public class SecurityController {
         }
         return "redirect:/login?logout=true";
     }
-
 }
