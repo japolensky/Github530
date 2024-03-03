@@ -9,4 +9,8 @@
 git clone https://github.com/buwebdev/cis-530.git
 cd cis-530
 Textbooks Companion Repository
-https://github.com/habuma/spring-in-action-6-samples
+https://github.com/habuma/spring-in-action-6-
+
+// in the end, oauth2 is working some notes in the source on what youtube videos 
+// that I had found helpful.
+

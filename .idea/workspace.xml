@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/application.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -446,21 +444,7 @@
       <workItem from="1709432010367" duration="16535000" />
       <workItem from="1709491900939" duration="653000" />
       <workItem from="1709493763068" duration="248000" />
-      <workItem from="1709494061942" duration="754000" />
-    </task>
-    <task id="LOCAL-00001" summary="testcommit">
-      <created>1705906009644</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705906009644</updated>
-    </task>
-    <task id="LOCAL-00002" summary="testcommit">
-      <created>1705909646638</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705909646638</updated>
+      <workItem from="1709494061942" duration="1081000" />
     </task>
     <task id="LOCAL-00003" summary="testcommit Week3 - better, all working for week3 work.">
       <created>1707000307040</created>
@@ -791,7 +775,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709494755257</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="w10 initial commit b">
+      <created>1709494830546</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1709494830547</updated>
+    </task>
+    <task id="LOCAL-00051" summary="w10 initial commit d">
+      <created>1709495011925</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1709495011925</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,8 +813,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="update for week4 add" />
-    <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
@@ -840,7 +836,9 @@
     <MESSAGE value="w9 initial commit f" />
     <MESSAGE value="w9 final_allworks" />
     <MESSAGE value="w10 initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit" />
+    <MESSAGE value="w10 initial commit b" />
+    <MESSAGE value="w10 initial commit d" />
+    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit d" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
