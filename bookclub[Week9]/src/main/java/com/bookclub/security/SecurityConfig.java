@@ -17,21 +17,36 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+// https://github.com/danvega/security-demo/blob/master/src/main/java/dev/danvega/securitydemo/config/SecurityConfig.java
+// https://www.youtube.com/watch?v=s4X4SJv2RrU <-Dan Vega shows the replacement stragety for configurer adapter
 @Configuration
 @EnableWebSecurity
-
 public class SecurityConfig {
+    @Bean
+    public InMemoryUserDetailsManager userDetailsService() {
+        UserDetails user = User.builder()
+                .username("testuser01")
+                .password(passwordEncoder().encode("password01"))
+                .roles("USER")
+                .build();
+        UserDetails admin = User.builder()
+                .username("admin")
+                .password(passwordEncoder().encode("password01"))
+                .roles("ADMIN", "USER")
+                .build();
+        return new InMemoryUserDetailsManager(user, admin);
+    }
 
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http)
             throws Exception {
         return http
+                .csrf(csrf ->csrf.disable())
                 .authorizeHttpRequests( auth -> {
                     auth.requestMatchers("/login").permitAll();
                     auth.anyRequest().authenticated();
@@ -45,16 +60,6 @@ public class SecurityConfig {
     // deciding role for external partner authentication should be user until
     // authorized for admin or other role?
 
-    @Bean
-    UserDetailsService userDetailsService(PasswordEncoder passwordEncoder) {
-        UserDetails userDetails = User.builder()
-                .username("testuser01")
-                .password(passwordEncoder.encode("password01"))
-                .roles("USER")
-                .build();
-
-        return new InMemoryUserDetailsManager(userDetails);
-    }
 
     @Bean
     PasswordEncoder passwordEncoder() {

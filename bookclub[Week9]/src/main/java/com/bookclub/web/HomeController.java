@@ -18,10 +18,6 @@ import java.util.List;
             RestBookDao bookDao = new RestBookDao();
             List<Book> books = bookDao.list();
 
-            for (Book book : books) {
-                System.out.println(book.toString());
-            }
-
             model.addAttribute("books", books);
 
             return "index";
@@ -29,15 +25,11 @@ import java.util.List;
 
         @RequestMapping(method = RequestMethod.GET, value = "/{id}")
         public String getMonthlyBook(@PathVariable("id") String id, Model model) {
-            String isbn = id;
-            System.out.println(id);
 
             RestBookDao bookDao = new RestBookDao();
-            Book book = bookDao.find(isbn);
-
-            System.out.println(book.toString());
-
+            Book book = bookDao.find(id);
             model.addAttribute("book", book);
+
             return "monthly-books/view";
         }
 

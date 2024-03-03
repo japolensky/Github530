@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w9 initial commit f">
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/index.html" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericCrudDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishListRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishListRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +50,9 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,8 +115,9 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.5050234",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "spring.boot",
-    "spring.configuration.checksum": "a4df8d86bebeae9cc86c829bd0757211",
+    "spring.configuration.checksum": "45111a7daa0ebfe02ed53bb1bf6e18a9",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
@@ -321,7 +334,8 @@
       <workItem from="1709092316672" duration="2202000" />
       <workItem from="1709184353775" duration="2500000" />
       <workItem from="1709188938898" duration="815000" />
-      <workItem from="1709237006622" duration="285000" />
+      <workItem from="1709237006622" duration="2781000" />
+      <workItem from="1709432010367" duration="14565000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -645,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709237143058</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="w9 initial commit f">
+      <created>1709237298822</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1709237298822</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +690,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="testcommit Week3 - better, all working for week3 work. trying to get to push properly." />
     <MESSAGE value="week 3 - testing pull then push" />
     <MESSAGE value="readme update" />
     <MESSAGE value="update for week4 add" />
@@ -694,7 +714,8 @@
     <MESSAGE value="w9 initial commit b" />
     <MESSAGE value="w9 initial commit c" />
     <MESSAGE value="w9 initial commit d" />
-    <option name="LAST_COMMIT_MESSAGE" value="w9 initial commit d" />
+    <MESSAGE value="w9 initial commit f" />
+    <option name="LAST_COMMIT_MESSAGE" value="w9 initial commit f" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

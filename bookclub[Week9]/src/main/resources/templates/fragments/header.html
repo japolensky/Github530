@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -34,8 +34,9 @@
                     </li>
                 </ul>
                 <div class="nav navbar-nav ml-auto w-100 justify-content-center">
-                    <div>
-                        Book Club
+                    <div sec:authorize="isAuthenticated()">
+                        Authenticated as  <strong th:text ="${#authentication.getAuthorities()}" ></strong>
+                        <div sec:authentication="name"></div>
                     </div>
                 </div>
 
