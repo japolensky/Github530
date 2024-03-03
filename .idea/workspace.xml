@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w9 final_allworks">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -450,7 +446,7 @@
       <workItem from="1709432010367" duration="16535000" />
       <workItem from="1709491900939" duration="653000" />
       <workItem from="1709493763068" duration="248000" />
-      <workItem from="1709494061942" duration="532000" />
+      <workItem from="1709494061942" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -788,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709446619181</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="w10 initial commit">
+      <created>1709494755257</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1709494755257</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,7 +815,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="readme update" />
     <MESSAGE value="update for week4 add" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
@@ -837,7 +839,8 @@
     <MESSAGE value="w9 initial commit d" />
     <MESSAGE value="w9 initial commit f" />
     <MESSAGE value="w9 final_allworks" />
-    <option name="LAST_COMMIT_MESSAGE" value="w9 final_allworks" />
+    <MESSAGE value="w10 initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
