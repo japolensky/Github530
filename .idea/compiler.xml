@@ -13,6 +13,7 @@
         <module name="bookclub_w1" />
         <module name="bookclub_w4" />
         <module name="bookclub_w3" />
+        <module name="bookclub_w10" />
         <module name="bookclub_w6" />
         <module name="bookclub_w5" />
       </profile>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bookclub_w1" options="-parameters" />
+      <module name="bookclub_w10" options="-parameters" />
       <module name="bookclub_w2" options="-parameters" />
       <module name="bookclub_w3" options="-parameters" />
       <module name="bookclub_w4" options="-parameters" />

@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/view.html" afterDir="false" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="w9 final_allworks">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/model/WishlistItem.java.bak" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericCrudDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/GenericCrudDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/service/impl/MongoWishListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishListRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishListRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishlistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/java/com/bookclub/web/WishlistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/src/main/resources/templates/wishlist/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +109,7 @@
     "project.structure.side.proportion": "0.5050234",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "spring.boot",
-    "spring.configuration.checksum": "45111a7daa0ebfe02ed53bb1bf6e18a9",
+    "spring.configuration.checksum": "23a55561eebe23e1292c92bfb502fb1b",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
 }]]></component>
@@ -146,21 +138,112 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week9">
-    <configuration name="Polensky Bookclub Week1 Java17 SDK" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.Polensky Bookclub Week10">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bookclub_w7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bookclub_w7" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Polensky Bookclub Week 1 Java17 SDK" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="bookclub_w1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.BookclubApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polensky Bookclub Week1 Temurin-17" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Polensky Bookclub Week01 Temurin-17" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="bookclub_w1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.BookclubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polensky Bookclub Week10" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="bookclub_w10" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,27 +322,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bookclubApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="bookclub_w9" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
     </configuration>
-    <configuration name="bookclubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="bookclub_w8" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bookclub.bookclubApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="bookclub_w7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.bookclubApplication (1)" />
-      <item itemvalue="Spring Boot.bookclubApplication" />
-      <item itemvalue="Spring Boot.Polensky Bookclub Week1 Java17 SDK" />
-      <item itemvalue="Spring Boot.Polensky Bookclub Week1 Temurin-17" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week10" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week 1 Java17 SDK" />
+      <item itemvalue="Spring Boot.Polensky Bookclub Week01 Temurin-17" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week2" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week3" />
       <item itemvalue="Spring Boot.Polensky Bookclub Week4" />
@@ -335,7 +447,10 @@
       <workItem from="1709184353775" duration="2500000" />
       <workItem from="1709188938898" duration="815000" />
       <workItem from="1709237006622" duration="2781000" />
-      <workItem from="1709432010367" duration="14565000" />
+      <workItem from="1709432010367" duration="16535000" />
+      <workItem from="1709491900939" duration="653000" />
+      <workItem from="1709493763068" duration="248000" />
+      <workItem from="1709494061942" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1705906009644</created>
@@ -666,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709237298822</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="w9 final_allworks">
+      <created>1709446619181</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1709446619181</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +812,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="week 3 - testing pull then push" />
     <MESSAGE value="readme update" />
     <MESSAGE value="update for week4 add" />
     <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/" />
@@ -715,7 +836,8 @@
     <MESSAGE value="w9 initial commit c" />
     <MESSAGE value="w9 initial commit d" />
     <MESSAGE value="w9 initial commit f" />
-    <option name="LAST_COMMIT_MESSAGE" value="w9 initial commit f" />
+    <MESSAGE value="w9 final_allworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="w9 final_allworks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
