@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/model/BookOfTheMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/dao/BookOfTheMonthDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/MongoBookOfTheMonthDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/monthly-books/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/monthly-books/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/RestBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/RestBookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,14 +446,7 @@
       <workItem from="1709432010367" duration="16535000" />
       <workItem from="1709491900939" duration="653000" />
       <workItem from="1709493763068" duration="248000" />
-      <workItem from="1709494061942" duration="15707000" />
-    </task>
-    <task id="LOCAL-00004" summary="testcommit Week3 - better, all working for week3 work. trying to get to push properly.">
-      <created>1707000664986</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1707000664986</updated>
+      <workItem from="1709494061942" duration="16681000" />
     </task>
     <task id="LOCAL-00005" summary="week 3 - testing pull then push">
       <created>1707005428498</created>
@@ -804,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709495283545</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="w10 initial all working">
+      <created>1709516550308</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1709516550309</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,7 +815,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
     <MESSAGE value="update some items in the repository.  trying to clear .java files that list as red in intellij" />
     <MESSAGE value="update some items in the repository.  trying to clear .java files that list as red in intellij more of them" />
@@ -853,7 +839,8 @@
     <MESSAGE value="w10 initial commit b" />
     <MESSAGE value="w10 initial commit d" />
     <MESSAGE value="w10 initial commit e" />
-    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit e" />
+    <MESSAGE value="w10 initial all working" />
+    <option name="LAST_COMMIT_MESSAGE" value="w10 initial all working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
