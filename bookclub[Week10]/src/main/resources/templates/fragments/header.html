@@ -34,10 +34,11 @@
                     </li>
                 </ul>
                 <div class="nav navbar-nav ml-auto w-100 justify-content-center">
+
                     <div sec:authorize="isAuthenticated()">
-                        Authenticated as  <strong th:text ="${#authentication.getAuthorities()}" ></strong>
-                        <div sec:authentication="name"></div>
+                        Logged In As:  <strong sec:authentication="name">  </strong>
                     </div>
+                    <div sec:authorize="isAuthenticated() ">  Roles:<strong sec:authentication="principal.authorities"></strong></div>
                 </div>
 
                 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -47,7 +48,10 @@
                            target="_blank">
                            OpenAPI Specification</a>
                     </li>
-
+                    <!-- Restrict the visibility of this link to only admin users. -->
+                    <li class="nav-item" sec:authorize="hasRole('ADMIN')">
+                        <a href="/monthly-books" class="nav-link" th:href="@{/monthly-books}">Monthly Books</a>
+                    </li>
                     <li class="nav-item float-end">
                         <a href="/logout" th:href="@{/logout}" class="nav-link float-end">Logout</a>
                     </li>

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="" />
+    <list default="true" id="57b66d36-8762-4cf1-a294-70ed7b753d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/model/BookOfTheMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/dao/BookOfTheMonthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/MongoBookOfTheMonthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/monthly-books/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/monthly-books/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/RestBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/service/impl/RestBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/java/com/bookclub/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week10]/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookclub[Week9]/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +51,9 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -102,7 +117,7 @@
     "project.structure.proportion": "0.14972815",
     "project.structure.side.proportion": "0.5050234",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "spring.boot",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gant",
     "spring.configuration.checksum": "23a55561eebe23e1292c92bfb502fb1b",
     "two.files.diff.last.used.folder": "C:/Users/Dell/Documents/My Documents M4400_21Oct2016/Education/Bellevue_College/CIS530_T401 Server-Side Development 2237-1/Github530/bookclub"
   }
@@ -444,14 +459,7 @@
       <workItem from="1709432010367" duration="16535000" />
       <workItem from="1709491900939" duration="653000" />
       <workItem from="1709493763068" duration="248000" />
-      <workItem from="1709494061942" duration="1081000" />
-    </task>
-    <task id="LOCAL-00003" summary="testcommit Week3 - better, all working for week3 work.">
-      <created>1707000307040</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707000307040</updated>
+      <workItem from="1709494061942" duration="15707000" />
     </task>
     <task id="LOCAL-00004" summary="testcommit Week3 - better, all working for week3 work. trying to get to push properly.">
       <created>1707000664986</created>
@@ -789,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709495011925</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="w10 initial commit e">
+      <created>1709495283545</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1709495283545</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -813,7 +828,6 @@
       <path value="$PROJECT_DIR$/Week01" />
       <path value="$PROJECT_DIR$/bookclubw2" />
     </ignored-roots>
-    <MESSAGE value="update for week4  json 2.1.0-&gt;2.8.0 - trying to get past commit complaint related to&#10;https://devhub.checkmarx.com/cve-details/CVE-2023-51074/&#10;&#10;Week4 is now complete, there is a checkmarks.com issue for the above issue.  Looking to resolve.  Version does not seem to matter, I think I need to comprehend how to have the environment adapt the version for json components at compilation." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly." />
     <MESSAGE value="Update for week 5 - in progress of getting mongo DB connection to work properly.&#10;&#10;cleared some of the version issues that the codecheck complains about.  I'm not sure if I have a clear handle on how to use MAVEN and dependencies properly." />
     <MESSAGE value="update some items in the repository.  trying to clear .java files that list as red in intellij" />
@@ -838,7 +852,8 @@
     <MESSAGE value="w10 initial commit" />
     <MESSAGE value="w10 initial commit b" />
     <MESSAGE value="w10 initial commit d" />
-    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit d" />
+    <MESSAGE value="w10 initial commit e" />
+    <option name="LAST_COMMIT_MESSAGE" value="w10 initial commit e" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
