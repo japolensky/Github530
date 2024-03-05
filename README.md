@@ -12,5 +12,5 @@ Textbooks Companion Repository
 https://github.com/habuma/spring-in-action-6-
 
 // in the end, oauth2 is working some notes in the source on what youtube videos 
-// that I had found helpful.
+// that I had found helpful. 
 
